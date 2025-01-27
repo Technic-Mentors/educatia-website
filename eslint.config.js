@@ -1,10 +1,10 @@
-import globals from "globals";
-import pluginReact from "eslint-plugin-react";
-import pluginNext from "eslint-plugin-next";
-import babelParser from "@babel/eslint-parser";
+const globals = require("globals");
+const pluginReact = require("eslint-plugin-react");
+const pluginNext = require("eslint-plugin-next");
+const babelParser = require("@babel/eslint-parser");
 
 /** @type {import('eslint').Linter.Config[]} */
-export default [
+module.exports = [
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     languageOptions: {
