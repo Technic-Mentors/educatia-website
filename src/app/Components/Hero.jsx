@@ -23,7 +23,7 @@ function Hero() {
                 Educatia Consultants is one of the leading study abroad
                 consultants. Begin your journey of studying abroad with us and
                 clear your education queries. Book your student visa consultancy
-                today.
+                today!
               </p>
               <button
                 type="button"
