@@ -17,7 +17,7 @@ function Hero() {
             {/* Column 1 */}
             <div className="flex flex-col right-col justify-center text-white">
               <h1 className="text-4xl font-bold leading-snug">
-                Pakistan's Biggest Network of Education Consultants
+                Follow Your Dreams To Study Abroad
               </h1>
               <p className="text-xl mt-4">
                 Educatia Consultants is one of the leading study abroad
