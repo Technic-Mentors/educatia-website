@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useState } from 'react';
 import { FaHandsHelping, FaNetworkWired, FaThumbsUp, FaUserCheck } from "react-icons/fa";
 

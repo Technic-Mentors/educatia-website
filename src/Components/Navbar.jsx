@@ -38,7 +38,7 @@ function Navbar() {
               <Link href="/">          
               <Image
                 alt="educatia-study-abroad-consultants"
-                src="../Assets/home-images/Educatia-Logo.png"
+                src="/Assets/home-images/Educatia-Logo.png"
                 height={100}
                 width={170}
               />

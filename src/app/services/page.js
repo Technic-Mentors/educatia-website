@@ -1,29 +1,21 @@
-'use client'
-import ServicesLayout from '@/Components/ServicesLayout'
-import React from 'react'
+import Link from 'next/link';
+import servicesData from '../../data/serviceDetails.json'; 
 
-function page() {
+const ServicesPage = () => {
   return (
-    <>
-      <section className='page-head'>
-      <div className='head-overlay py-36 '>
-      <div className='container mx-auto justify-center align-center'>
-        <div className='grid grid-cols-1 '>
-          <div className='col-span-1'>
-            <h1 className='text-4xl font-bold text-center text-white'>Expert Services for Global Education</h1>
-          </div>
-        </div>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold mb-6">Our Services</h1>
+      <div className="flex space-x-4">
+        {servicesData.services.map((service) => (
+          <Link key={service.id} href={`/services/${service.id}`}>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+              {service.tabTitle}
+            </button>
+          </Link>
+        ))}
       </div>
-      </div>
-    </section>
+    </div>
+  );
+};
 
-    
-    <ServicesLayout>
-      <h1>Welcome to Our Services</h1>
-      <p>Select a service from the sidebar to learn more.</p>
-    </ServicesLayout>
-    </>
-  )
-}
-
-export default page
+export default ServicesPage;

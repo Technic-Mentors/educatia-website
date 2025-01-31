@@ -1,0 +1,118 @@
+{
+  "services": [
+    {
+      "id": "career-counseling",
+      "tabTitle": "Career Counseling",
+      "title": "Career Counseling",
+      "description": "Receive personalized guidance to explore your interests, identify your strengths, and choose the right career path tailored to your goals.",
+      "details": {
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
+        "benefits": [
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
+        ],
+        "process": [
+          "Initial consultation",
+          "Career assessment tests",
+          "Personalized career plan"
+        ]
+      }
+    },
+    {
+      "id": "selection-of-university",
+      "tabTitle": "Selection of University",
+      "title": "Selection of University",
+      "description": "We help you research and select the perfect university that aligns with your academic ambitions and preferred destination.",
+      "details": {
+        "overview": "Choosing the right university is crucial for your academic and professional success. Our experts assist you in finding the best fit based on your preferences and goals.",
+        "benefits": [
+          "Comprehensive university research",
+          "Guidance on course selection",
+          "Assistance with application requirements"
+        ],
+        "process": [
+          "Initial consultation",
+          "University shortlisting",
+          "Application support"
+        ]
+      }
+    },
+    {
+      "id": "scholarships",
+      "tabTitle": "Scholarships",
+      "title": "Scholarships",
+      "description": "Discover and apply for the best scholarships to make studying abroad more affordable, with our expert assistance.",
+      "details": {
+        "overview": "We help you navigate the complex world of scholarships, ensuring you have the best chance to secure financial aid for your studies.",
+        "benefits": [
+          "Scholarship search and matching",
+          "Application assistance",
+          "Essay and documentation support"
+        ],
+        "process": [
+          "Scholarship research",
+          "Application preparation",
+          "Submission and follow-up"
+        ]
+      }
+    },
+    {
+      "id": "application-handling",
+      "tabTitle": "Application Handling",
+      "title": "Application Handling",
+      "description": "Let us handle the complexities of your university application process, ensuring accuracy and timely submissions.",
+      "details": {
+        "overview": "Our application handling service takes the stress out of applying to universities. We manage the entire process, from document preparation to submission.",
+        "benefits": [
+          "Document preparation and review",
+          "Application form filling",
+          "Timely submission and tracking"
+        ],
+        "process": [
+          "Document collection",
+          "Application form completion",
+          "Submission and follow-up"
+        ]
+      }
+    },
+    {
+      "id": "interview-preparation",
+      "tabTitle": "Interview Preparation",
+      "title": "Interview Preparation",
+      "description": "Prepare to excel in university or visa interviews with one-on-one coaching and detailed practice sessions.",
+      "details": {
+        "overview": "Our interview preparation service ensures you are fully prepared to impress during university or visa interviews. We provide personalized coaching and mock interviews.",
+        "benefits": [
+          "Personalized coaching",
+          "Mock interview sessions",
+          "Feedback and improvement tips"
+        ],
+        "process": [
+          "Initial assessment",
+          "Mock interviews",
+          "Feedback and final preparation"
+        ]
+      }
+    },
+    {
+      "id": "pre-departure-briefing",
+      "tabTitle": "Pre-Departure Briefing",
+      "title": "Pre-Departure Briefing",
+      "description": "Receive personalized guidance to explore your interests, identify your strengths, and choose the right career path tailored to your goals.",
+      "details": {
+        "overview": "Our pre-departure briefing ensures you are fully prepared for your journey abroad. We cover everything from travel arrangements to cultural adaptation.",
+        "benefits": [
+          "Travel and accommodation guidance",
+          "Cultural adaptation tips",
+          "Checklist for departure"
+        ],
+        "process": [
+          "Initial consultation",
+          "Preparation of departure checklist",
+          "Final briefing session"
+        ]
+      }
+    }
+  ]
+}
