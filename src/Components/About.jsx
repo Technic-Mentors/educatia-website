@@ -46,7 +46,7 @@ function About() {
             fulfilling, and transformative.
             <br /><br />
             By partnering with top institutions and leveraging our industry expertise, we provide insights that empower you to 
-            make informed decisions. With Educatia you’re not just planning to study abroad—you’re shaping a future full of possibilities.
+            make informed decisions. With Educatia, you’re not just planning to study abroad—you’re shaping a future full of possibilities.
           </p>
           <button
             type="button"
