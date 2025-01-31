@@ -1,17 +1,27 @@
-import Image from "next/image";
-import Navbar from "./Components/Navbar";
-import LandingPage from "../Pages/Home";
-import Footer from "./Components/Footer";
-import Topbar from "./Components/Topbar";
- 
+'use client';
+import React from 'react';
+import Hero from "../Components/Hero";
+import Services from '../Components/Services';
+import About from '../Components/About';
+import Destinations from '../Components/Destinations';
+import ApplyNow from '../Components/ApplyNow';
+import Testimonials from '../Components/Testimonials';
+import WorkProcess from '../Components/WorkProcess';
+import Universities from '../Components/Universities';
 
-export default function Home() {
+function LandingPage() {
   return (
     <>
-    <Topbar />
-    <Navbar />
-    <LandingPage />
-    <Footer />
+      <Hero />
+      <Services />
+      <About />
+      <Destinations />
+      <WorkProcess />
+      <ApplyNow />
+      <Universities />
+      <Testimonials />
     </>
-  );
+  )
 }
+
+export default LandingPage

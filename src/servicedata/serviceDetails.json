@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "id": "career-counselling",
+      "title": "Career Counselling",
+      "description": "Expert personal tax return preparation and filing services in Glasgow for individuals and sole traders.",
+      "imageSrc": "/image/taxation-services.png",
+      "alt": "Personal Tax Returns"
+    },
+    {
+      "id": "university-selection",
+      "title": "University Selection",
+      "description": "Professional corporate tax return compliance and filing services for businesses in Glasgow.",
+      "imageSrc": "/image/Accounting-and-Bookkeeping.png",
+      "alt": "Corporate Tax Returns"
+    },
+    {
+      "id": "scholarships",
+      "title": "Scholarships",
+      "description": "Guidance on available scholarships and assistance with the application process.",
+      "imageSrc": "/image/scholarships.png",
+      "alt": "Scholarships"
+    },
+    {
+      "id": "application-handling",
+      "title": "Application Handling",
+      "description": "Comprehensive support for handling university applications and documentation.",
+      "imageSrc": "/image/application-handling.png",
+      "alt": "Application Handling"
+    },
+    {
+      "id": "interview-preparation",
+      "title": "Interview Preparation",
+      "description": "Expert coaching and preparation for university admission interviews.",
+      "imageSrc": "/image/interview-preparation.png",
+      "alt": "Interview Preparation"
+    },
+    {
+      "id": "pre-departure-briefing",
+      "title": "Pre-Departure Briefing",
+      "description": "Essential information and tips for students before they depart for their studies abroad.",
+      "imageSrc": "/image/pre-departure-briefing.png",
+      "alt": "Pre-Departure Briefing"
+    }
+  ]
+}
