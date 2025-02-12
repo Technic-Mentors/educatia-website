@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
 function ApplyNow() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      sectionRef.current,
+      { opacity: 0, y: 50 },
+      { opacity: 1, y: 0, duration: 1, ease: "power3.out" }
+    );
+  }, []);
+
   return (
     <>
-      <section className="apply bg-[#023769] py-14">
+      <section ref={sectionRef} className="apply bg-[#023769] py-14 px-4">
         <div className="container mx-auto">
           <div className="section-head my-4">
             <h5 className="text-[#009E99] text-xl">Need Advice?</h5>
-            <h2 style={{color: "#fff"}}>Send Us A Message</h2>
+            <h2 style={{ color: "#fff" }}>Send Us A Message</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <form

@@ -4,6 +4,7 @@ import About from '../../Components/About';
 import WhyEducatia from '../../Components/WhyEducatia';
 import CoreValues from '@/Components/CoreValues';
 import Testimonials from '@/Components/Testimonials';
+import Calltoaction from '@/Components/Calltoaction';
 
 function about() { 
   return (
@@ -23,6 +24,7 @@ function about() {
     <CoreValues />
     <WhyEducatia />
     <Testimonials />
+    <Calltoaction />
    
     </>
   )

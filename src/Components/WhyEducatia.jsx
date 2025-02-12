@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import { useState } from 'react';
 import { FaHandsHelping, FaNetworkWired, FaThumbsUp, FaUserCheck } from "react-icons/fa";
 
@@ -14,7 +15,7 @@ function WhyEducatia() {
     <>
       <section className="why-educatia py-20">
       <div className="container justify-center align-center mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-8 px-4">
           <div className="col-span-1">
             <h2 className="text-3xl font-bold text-[#023769]">
             Setting the Standard for <span className="text-black"> Study Abroad</span> Guidance
@@ -23,9 +24,11 @@ function WhyEducatia() {
             Choosing Educatia means partnering with a consultancy that truly understands the value of global education. We don’t just offer services; we provide a transformative experience tailored to your academic and career aspirations. Our dedicated team of experts ensures you receive personalized advice and comprehensive support at every step of your study abroad journey.<br /><br />
             From selecting the right university to preparing your application and navigating the visa process, we handle it all with precision and care. With a proven track record of successful placements and strong partnerships with leading institutions, we empower students to pursue their dreams and unlock global opportunities confidently. At Educatia, your success is our top priority.
             </p>
+            <Link href="/contact">  
             <button className="button2 mt-8">
               Book Appointment
             </button>
+            </Link>
           </div>
           <div className="col-span-1">
             <div className="accordion-group">
@@ -62,14 +65,17 @@ function WhyEducatia() {
                     className="accordion-toggle group inline-flex items-center justify-between text-left text-base leading-8 text-gray-900 w-full transition duration-500 hover:text-indigo-600"
                     aria-expanded={openAccordion === index}
                   >
-                    <h4 className="text-lg font-semibold flex items-center">{item.icon}&nbsp;{item.title}</h4>
+                    <div className='flex items-center'>
+                    <span className='mr-3 lg:text-lg text-xl'>{item.icon}</span>
+                    <h4 className="lg:text-lg text-base font-semibold flex items-center">{item.title}</h4>
+                    </div>
                     <svg
                       className={`w-6 h-6 transition-transform duration-500 ${
                         openAccordion === index ? 'rotate-45' : 'rotate-0'
                       }`}
                       viewBox="0 0 24 24"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns="http://www.w3.org/2000/svg" 
                     >
                       <path
                         d="M6 12H18M12 18V6"

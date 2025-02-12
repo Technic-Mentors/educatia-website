@@ -9,7 +9,7 @@ function Footer() {
       
       <section className="footer-div">
         <div className="container justify-center items-center mx-auto w-full py-6">
-          <div className="grid gap-16 row-gap-10 mb-8 pt-8 lg:grid-cols-3">
+          <div className="grid gap-16 row-gap-10 mb-8 pt-8 lg:px-1 px-2 lg:grid-cols-3">
             {/* First Column */}
             <div className="md:max-w-md">
               <Link
@@ -54,7 +54,7 @@ function Footer() {
               <ul className="mt-2 space-y-2 footer-service-list">
                 <li>
                   <Link
-                    href="/"
+                    href="/services/career-counseling"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span >&rarr;</span> Career Counseling
@@ -62,7 +62,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/services/selection-of-university"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span>&rarr;</span> Selection of University
@@ -70,7 +70,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/services/scholarships"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span>&rarr;</span> Scholarships
@@ -78,7 +78,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/services/application-handling"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span>&rarr;</span> Application Handling
@@ -86,7 +86,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/services/interview-preparation"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span>&rarr;</span> Interview Preparation
@@ -94,7 +94,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/services/pre-departure-briefing"
                     className="flex items-center hover:underline hover:underline-offset-2 text-gray-600 transition-all duration-300 transform hover:text-[#023769] hover:translate-x-2"
                   >
                     <span>&rarr;</span> Pre-Departure Briefing

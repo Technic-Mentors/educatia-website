@@ -17,8 +17,20 @@ const ServiceDetail = ({params}) => {
   }
 
   return (
-    <div className="flex">
+    <>
+    <section className='page-head'>
+      <div className='head-overlay py-36 '>
+      <div className='container mx-auto justify-center align-center'>
+        <div className='grid grid-cols-1 '>
+          <div className='col-span-1'>
+            <h1 className='text-4xl font-bold text-center text-white'>{service.tabTitle}</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
       {/* Sidebar */}
+      <div className='flex'>
       <div className="w-1/4 p-4">
         <h2 className="text-xl font-bold mb-4">Services</h2>
         <ul>
@@ -34,8 +46,6 @@ const ServiceDetail = ({params}) => {
           ))}
         </ul>
       </div>
-
-      {/* Service Details */}
       <div className="w-3/4 p-4">
         <h1 className="text-2xl font-bold mb-4">{service.title}</h1>
         <p className="mb-4">{service.description}</p>
@@ -60,7 +70,9 @@ const ServiceDetail = ({params}) => {
           </ul>
         </div>
       </div>
-    </div>
+      </div>
+      
+    </>
   );
 };
 

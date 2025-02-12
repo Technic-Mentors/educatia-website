@@ -8,6 +8,7 @@ import ApplyNow from '../Components/ApplyNow';
 import Testimonials from '../Components/Testimonials';
 import WorkProcess from '../Components/WorkProcess';
 import Universities from '../Components/Universities';
+import Calltoaction from '@/Components/Calltoaction';
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
       <ApplyNow />
       <Universities />
       <Testimonials />
+      <Calltoaction />
     </>
   )
 }

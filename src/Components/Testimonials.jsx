@@ -1,15 +1,25 @@
-import React, { createContext } from "react";
+import React, { createContext, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { gsap } from 'gsap';
 
 function Testimonials() {
+  const sectionRef = useRef(null);
+useEffect(() => {
+    gsap.from(sectionRef.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+    });
+  }, []);
+
   return (
     <>
-      <section className="py-24 bg-[#f1f3f5]">
-        <div className="mx-auto  sm:px-6 ">
+      <section ref={sectionRef} className="py-24 bg-[#f1f3f5]">
+        <div className="mx-auto  lg:px-20 px-3 ">
           <div className="flex justify-center items-center gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8 max-w-sm sm:max-w-2xl lg:max-w-full mx-auto">
             <div className="w-full lg:w-2/5">
               <span className="text-sm text-gray-500 font-medium mb-4 block">

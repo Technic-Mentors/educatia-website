@@ -1,11 +1,17 @@
+
+
 {
   "services": [
     {
       "id": "career-counseling",
       "tabTitle": "Career Counseling",
-      "title": "Career Counseling",
-      "description": "Receive personalized guidance to explore your interests, identify your strengths, and choose the right career path tailored to your goals.",
+      "title": "Career Counseling: Your Path to a Fulfilling Future",
+      "icon": "fa fa-user",
+      "description": "Choosing the right career path is one of the most important decisions you'll make. At Educatia, our Career Counseling service is designed to help you discover your strengths, align your interests with your future goals, and chart the best course for your success. Our expert consultants provide personalized guidance that empowers you to make informed decisions, setting you up for success in both your academic and professional life.",
       "details": {
+        "customhead": "Why Career Counseling is Crucial for Your Future",
+        "why": "Career counseling plays a vital role in helping you choose the right educational path. Whether you're unsure about your major or need direction in a competitive job market, our counselors work with you to assess your strengths, skills, and passions. We then guide you toward the best career options and academic opportunities that align with your personal and professional aspirations.",
+        "customImg": "/Assets/home-images/career-counselling.avif",
         "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
           "Personalized career assessment",
@@ -16,6 +22,46 @@
           "Initial consultation",
           "Career assessment tests",
           "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Educatia For Career Counseling?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Comprehensive Career Assessments",
+            "paragraph": "We help you discover your strengths, skills, and interests through proven assessment techniques, enabling you to choose a rewarding career path."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Tailored Academic Pathway Guidance",
+            "paragraph": "Get expert advice on selecting the right educational programs and majors that align with your future career goals."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Industry Insights and Career Exploration",
+            "paragraph": "Our counselors provide insights into various industries and professions to help you make an informed decision."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Skill Development Advice",
+            "paragraph": "Learn which technical and soft skills are crucial for your chosen path, along with strategies to build them."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Data-Driven Career Insights",
+            "accordText": "We use market trends and employment data to help you select future-proof career paths that align with your goals."
+          },
+          {
+            "accordTitle": "Mentorship Beyond Counseling",
+            "accordText": "Gain access to ongoing mentorship from industry professionals who provide practical advice and insights into your chosen field."
+          },
+          {
+            "accordTitle": "Global Perspective for Study and Work",
+            "accordText": "Our counseling services are designed with a global outlook, helping you navigate international education and career opportunities."
+          }
         ]
       }
     },
@@ -23,96 +69,317 @@
       "id": "selection-of-university",
       "tabTitle": "Selection of University",
       "title": "Selection of University",
-      "description": "We help you research and select the perfect university that aligns with your academic ambitions and preferred destination.",
+      "icon": "fa fa-university",
+      "description": "Choosing the right university is one of the most crucial decisions for your academic and professional journey. At Educatia, we understand that each student has unique goals and preferences. That's why we provide personalized guidance to help you find the best-fit university for your aspirations.",
       "details": {
-        "overview": "Choosing the right university is crucial for your academic and professional success. Our experts assist you in finding the best fit based on your preferences and goals.",
+        "customhead": "Why Selecting the Right University Is Crucial for Your Future",
+        "why": "Choosing the right university shapes not only your academic experience but also your professional journey. The right institution provides access to quality education, industry connections, and a network of peers and mentors who can significantly impact your career growth. Furthermore, it enhances your employability by offering programs aligned with evolving job market trends. Making an informed decision at this stage can pave the way for a successful and fulfilling future.",
+        "customImg": "/Assets/home-images/uni-selection.avif",
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
-          "Comprehensive university research",
-          "Guidance on course selection",
-          "Assistance with application requirements"
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
         ],
         "process": [
           "Initial consultation",
-          "University shortlisting",
-          "Application support"
+          "Career assessment tests",
+          "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Choose Educatia for University Selection?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Tailored University Shortlisting",
+            "paragraph": "We curate a list of universities based on your academic background, career ambitions, and personal preferences."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Detailed Program Analysis",
+            "paragraph": "Get insights into the best programs offered by top universities that align with your academic strengths."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Comparative Evaluation",
+            "paragraph": "We help you compare universities based on location, ranking, tuition fees, and job prospects to make an informed choice."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Exclusive Admission Insights",
+            "paragraph": "Gain access to insider information on university admission trends and application tips for a competitive edge."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Global Network of Partner Universities",
+            "accordText": "With connections to prestigious institutions worldwide, we can provide access to top-ranking universities tailored to your needs."
+          },
+          {
+            "accordTitle": "Personalized Counseling Sessions",
+            "accordText": "One-on-one sessions to assess your goals and match you with universities that align with your academic and career aspirations."
+          },
+          {
+            "accordTitle": "Comprehensive Application Support",
+            "accordText": "Our experts assist in every aspect of your university applications, ensuring accuracy and professionalism for a strong submission."
+          }
         ]
       }
     },
     {
       "id": "scholarships",
       "tabTitle": "Scholarships",
-      "title": "Scholarships",
-      "description": "Discover and apply for the best scholarships to make studying abroad more affordable, with our expert assistance.",
+      "title": "Finance Your Education with Scholarships",
+      "icon": "fa fa-money",
+      "description": "Higher education can be expensive, but financial constraints shouldn't hold you back from pursuing your dreams. At Educatia, we guide you in discovering and applying for the best scholarship opportunities, ensuring that you receive the support you deserve to make studying abroad a reality.",
       "details": {
-        "overview": "We help you navigate the complex world of scholarships, ensuring you have the best chance to secure financial aid for your studies.",
+        "customhead": "Why Scholarships Matter for Your Educational Journey",
+        "why": "Scholarships not only reduce the financial burden of tuition fees but also recognize and reward your academic achievements. They open doors to prestigious institutions and provide access to quality education without the stress of financial challenges. Securing a scholarship also enhances your resume, showcasing your ability to earn competitive opportunities based on merit or special qualifications.",
+        "customImg": "/Assets/home-images/scholarships.avif",
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
-          "Scholarship search and matching",
-          "Application assistance",
-          "Essay and documentation support"
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
         ],
         "process": [
-          "Scholarship research",
-          "Application preparation",
-          "Submission and follow-up"
+          "Initial consultation",
+          "Career assessment tests",
+          "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Choose Educatia for Scholarship Assistance?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Extensive Scholarship Database",
+            "paragraph": "Access information on a wide range of scholarships from various universities and external organizations."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Eligibility Assessment",
+            "paragraph": "We assess your academic profile and achievements to match you with the most suitable scholarships."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Application Guidance",
+            "paragraph": "Get expert advice on drafting compelling scholarship essays and assembling complete application packages."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Timely Alerts and Deadlines",
+            "paragraph": "Stay informed about important scholarship deadlines to ensure you never miss an opportunity."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Expert Knowledge on Global Scholarships",
+            "accordText": "We stay updated on the latest scholarship programs to help you access financial aid options worldwide."
+          },
+          {
+            "accordTitle": "Tailored Scholarship Matching",
+            "accordText": "Our counselors carefully match you with scholarships that best fit your academic background and personal circumstances."
+          },
+          {
+            "accordTitle": "Complete Application Support",
+            "accordText": "From essay writing to document preparation, we assist you in crafting a strong and successful scholarship application."
+          }
         ]
       }
     },
     {
       "id": "application-handling",
       "tabTitle": "Application Handling",
-      "title": "Application Handling",
-      "description": "Let us handle the complexities of your university application process, ensuring accuracy and timely submissions.",
+      "title": "Let's Handle All Your Paper Work Labor",
+      "icon": "fa fa-file-text",
+      "description": "Navigating the application process for universities abroad can be overwhelming. From gathering documents to meeting deadlines, every step requires precision and careful attention. At Educatia, we take the stress out of the process by handling your application professionally and efficiently, increasing your chances of acceptance.",
       "details": {
-        "overview": "Our application handling service takes the stress out of applying to universities. We manage the entire process, from document preparation to submission.",
+        "customhead": "Why Application Handling Is Critical for Your Success",
+        "why": "Submitting an accurate and well-organized application is essential for gaining admission to your desired institution. Errors or missing documents can lead to rejections or delays. Proper handling ensures your application stands out by meeting all requirements and showcasing your strengths. A seamless application process also keeps you on track with university timelines, allowing you to focus on preparing for your study abroad journey.",
+        "customImg": "/Assets/home-images/application-handling.avif",
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
-          "Document preparation and review",
-          "Application form filling",
-          "Timely submission and tracking"
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
         ],
         "process": [
-          "Document collection",
-          "Application form completion",
-          "Submission and follow-up"
+          "Initial consultation",
+          "Career assessment tests",
+          "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Choose Educatia for Application Handling?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Comprehensive Document Preparation",
+            "paragraph": "We ensure all your documents are properly compiled, verified, and ready for submission."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Application Form Assistance",
+            "paragraph": "Our experts guide you in filling out application forms accurately and strategically."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Tailored Submission Strategies",
+            "paragraph": "Submit your applications to the right universities at the right time to maximize your chances of acceptance."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Tracking and Follow-Up",
+            "paragraph": "We monitor your application status and liaise with university admissions offices when needed."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Accuracy and Attention to Detail",
+            "accordText": "We double-check every detail to ensure your application is flawless and complete."
+          },
+          {
+            "accordTitle": "Experience with Diverse University Requirements",
+            "accordText": "Our team is familiar with the specific requirements of universities worldwide."
+          },
+          {
+            "accordTitle": "End-to-End Support",
+            "accordText": "From form completion to submission tracking, we are with you every step of the way."
+          }
         ]
       }
     },
     {
       "id": "interview-preparation",
       "tabTitle": "Interview Preparation",
-      "title": "Interview Preparation",
-      "description": "Prepare to excel in university or visa interviews with one-on-one coaching and detailed practice sessions.",
+      "title": "Ace Your Interview With Confidence",
+      "icon": "fa fa-comments",
+      "description": "Securing admission to your dream university often requires more than just a strong application. Many institutions conduct interviews to assess a candidate’s readiness, communication skills, and overall fit. At Educatia, we provide comprehensive interview preparation to help you ace your university interviews confidently and effectively.",
       "details": {
-        "overview": "Our interview preparation service ensures you are fully prepared to impress during university or visa interviews. We provide personalized coaching and mock interviews.",
+        "customhead": "Why Interview Preparation Is Essential for Your Success",
+        "why": "University interviews are a chance to showcase your personality, passion, and potential beyond your academic achievements. Proper preparation ensures you can articulate your goals, respond thoughtfully to challenging questions, and leave a lasting positive impression. With expert guidance, you can overcome nervousness and present yourself as the ideal candidate for admission.",
+        "customImg": "/Assets/home-images/interview-prep.avif",
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
-          "Personalized coaching",
-          "Mock interview sessions",
-          "Feedback and improvement tips"
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
         ],
         "process": [
-          "Initial assessment",
-          "Mock interviews",
-          "Feedback and final preparation"
+          "Initial consultation",
+          "Career assessment tests",
+          "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Choose Educatia for Interview Preparation?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Mock Interview Sessions",
+            "paragraph": "Practice real-life interview scenarios to build confidence and improve your responses."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Personalized Feedback",
+            "paragraph": "Receive constructive feedback to refine your answers, body language, and communication style."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Common Questions and Best Practices",
+            "paragraph": "Learn how to effectively answer frequently asked questions and tackle unexpected queries."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Building a Compelling Personal Narrative",
+            "paragraph": "Craft a story that highlights your achievements, goals, and motivations for studying abroad."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Expert Guidance from Industry Professionals",
+            "accordText": "Our team understands what top universities are looking for in candidates."
+          },
+          {
+            "accordTitle": "Tailored Strategies for Different Institutions",
+            "accordText": "We customize interview preparation based on the specific requirements of your target universities."
+          },
+          {
+            "accordTitle": "Focus on Confidence Building",
+            "accordText": "We help you feel self-assured and ready to impress during your interviews."
+          }
         ]
       }
     },
     {
       "id": "pre-departure-briefing",
       "tabTitle": "Pre-Departure Briefing",
-      "title": "Pre-Departure Briefing",
-      "description": "Receive personalized guidance to explore your interests, identify your strengths, and choose the right career path tailored to your goals.",
+      "title": "Get The Final Touch Before You Fly",
+      "icon": "fa fa-plane",
+      "description": "Your journey doesn’t end with getting admission—it's just the beginning. Moving to a new country for your education requires careful planning and preparation. Educatia’s Pre-Departure Briefing ensures you’re fully equipped to handle this exciting transition with ease and confidence.",
       "details": {
-        "overview": "Our pre-departure briefing ensures you are fully prepared for your journey abroad. We cover everything from travel arrangements to cultural adaptation.",
+        "customhead": "Why a Pre-Departure Briefing Is Crucial for a Smooth Transition",
+        "why": "Relocating to a foreign country presents unique challenges, from cultural differences to understanding local regulations. A well-structured pre-departure session helps you navigate these challenges effectively. With valuable insights and practical tips, you can settle into your new environment without unnecessary stress.",
+        "customImg": "/Assets/home-images/pre-departure.avif",
+        "overview": "Our career counseling service is designed to help you make informed decisions about your future. We provide one-on-one sessions to understand your aspirations and guide you towards a fulfilling career.",
         "benefits": [
-          "Travel and accommodation guidance",
-          "Cultural adaptation tips",
-          "Checklist for departure"
+          "Personalized career assessment",
+          "Identification of strengths and interests",
+          "Guidance on career options and pathways"
         ],
         "process": [
           "Initial consultation",
-          "Preparation of departure checklist",
-          "Final briefing session"
+          "Career assessment tests",
+          "Personalized career plan"
+        ], 
+        "accordMain":[
+          "Why Choose Educatia for Pre-Departure Briefing?"
+        ],
+        "cards": [
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Travel and Packing Guidelines",
+            "paragraph": "Essential tips on what to pack and how to manage your travel arrangements efficiently."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Understanding Local Customs and Culture",
+            "paragraph": "Insights into cultural norms and etiquette to help you adapt seamlessly to your new environment."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Accommodation and Transportation Guidance",
+            "paragraph": "Tips for finding safe housing and navigating the local transport system."
+          },
+          {
+            "icon": "fa fa-lightbulb",
+            "title": "Essential Document Checklist",
+            "paragraph": "Ensure you have all the necessary documents for a hassle-free journey and arrival."
+          }
+        ],
+        "servAccord": [
+          
+          {
+            "accordTitle": "Comprehensive and Tailored Guidance",
+            "accordText": "We provide personalized advice based on your study destination and individual needs."
+          },
+          {
+            "accordTitle": "Experienced Advisors with Global Expertise",
+            "accordText": "Our team has in-depth knowledge of various countries and their education systems."
+          },
+          {
+            "accordTitle": "Practical Tips for Real-Life Situations",
+            "accordText": "From currency exchange to emergency contacts, we cover the details that matter."
+          }
         ]
       }
     }
+  
   ]
 }

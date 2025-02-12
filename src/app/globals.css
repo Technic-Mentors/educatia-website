@@ -10,9 +10,18 @@
   --secondary: #009E99;
 }
 
-h1, p{
-  font-family: 'Inter', sans-serif;
+html{
+  overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'poppins', sans-serif;
+}
+
+.side-icon{
+  font-size: 20px !important;
+}
+
 
 /* Button styles starts */ 
 .button2 {
@@ -27,7 +36,7 @@ h1, p{
   font-size: 18px;
   border-radius: 0.3em;
   border: 1px solid #009E99;
-  font-family: 'Inter', sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .button2:active {
@@ -86,7 +95,7 @@ h1, p{
 
 .section-head h2{
   font-size: 230%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'poppins', sans-serif;
   color: var(--primary);
   font-weight: 750;
 }
@@ -101,7 +110,6 @@ h1, p{
 /* Topbar styles ends */
 
 /* Navbar styles starts */
-
 .my-custom-navbar{
 box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
@@ -114,7 +122,7 @@ box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
 .educatia-menu-item a{
-  font-family: 'Inter', sans-serif;
+  font-family: 'poppins', sans-serif;
   margin-top: 8px;
 }
 
@@ -123,14 +131,14 @@ box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 /* Page Header styles starts */
 
 .page-head{
-  background-image: url('/Assets/home-images/footer-bg.png');
+  background-image: url('/Assets/home-images/inner-page-head-bg.avif');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
 }
 
 .head-overlay{
-  background-color: rgba(2, 55, 105, 0.50);
+  background-color: rgba(2, 55, 105, 0.80);
 }
 
 /* Page Header styles ends */
@@ -143,7 +151,7 @@ box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 .right-col h1{
   font-size: 300%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-weight: 800;
   color: #fff;
 }
@@ -162,6 +170,7 @@ box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 .serv-cards{
   border-top: 4px solid var(--primary);
   position: relative;
+  height: 100%;
 }
 
 .serv-cards:hover .icon-div{
